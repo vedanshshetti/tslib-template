@@ -1,0 +1,24 @@
+{
+  "name": "@myname/mypackage",
+  "version": "1.0.0",
+  "description": "My Package Description",
+  "homepage": "https://github.com/myname/myrepo#readme",
+  "bugs": {
+    "url": "https://github.com/myname/myrepo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myname/myrepo.git"
+  },
+  "license": "MIT",
+  "author": "My Name",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^6.1.3",
+    "@types/node": "^26.6.4"
+  }
+}
